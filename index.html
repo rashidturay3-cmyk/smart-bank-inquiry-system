@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Trust Bank</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1><i class="fas fa-globe"></i> Global Trust Bank</h1>
+
+            <ul class="nav-links">
+                <li><a href="#Home" data-section="home">Home</a></li>
+                <li><a href="#Services" data-section="services">Services</a></li>
+                <li><a href="#About" data-section="about">About Us</a></li>
+                <li><a href="#Contact" data-section="contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero page-section active" data-view="home">
+
+        <div class="hero-content"> 
+
+            <h2>Welcome to Global Trust Bank</h2> 
+
+            <p>
+                Your Trust, Our Commitment.
+            </p>
+
+            <p>
+                Our customer support chatbot helps customers get
+                information about accounts, loans,and banking services without waiting in queues. Get instant answers to your banking questions and enjoy a seamless banking experience with our virtual assistant chatbot.
+            </p>
+
+            <button id="start-chat-btn">
+                Start Chatting
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/customer.jpg" alt="Customers using chatbot ">
+        </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services page-section" data-view="services">
+
+        <h2>Our Services</h2>  
+
+        <div class="service-cards">
+
+            <div class="card card-deep-blue">
+                <h3><i class="fas fa-piggy-bank"></i> Savings Account</h3>
+                <p>Safe and secure savings options.</p>
+            </div>
+
+            <div class="card card-light-blue">
+                <h3><i class="fas fa-building-columns"></i> Current Account</h3>
+                <p>Suitable for daily transactions.</p>
+            </div>
+
+            <div class="card card-white">
+                <h3><i class="fas fa-graduation-cap"></i> Student Account</h3>
+                <p>Designed for students.</p>
+            </div>
+
+            <div class="card card-deep-blue">
+                <h3><i class="fas fa-briefcase"></i> Business Account</h3>
+                <p>Support for businesses and organizations.</p>
+            </div>
+
+            <div class="card card-light-blue">
+                <h3><i class="fas fa-file-invoice-dollar"></i> Loans</h3>
+                <p>Personal and business loan services.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about page-section" data-view="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            Global Trust Bank is committed to providing reliable,
+            secure, and customer-focused banking services.
+
+            Our chatbot helps customers get instant information
+            about banking services, reducing waiting time and
+            improving customer experience.
+        </p>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact page-section" data-view="contact">
+
+        <h2>Contact Us</h2>
+
+        <p><a href="tel:+23299728163"><i class="fas fa-phone"></i> +232 99 728 163</a></p>
+
+        <p><a href="mailto:support@globaltrustbank.com"><i class="fas fa-envelope"></i> support@globaltrustbank.com</a></p>
+
+        <p><i class="fas fa-map-marker-alt"></i> 20 Congo Cross, Freetown</p>
+
+    </section>
+
+    <!-- Chat Button -->
+    <button id="chat-toggle">
+        💬 Chat
+    </button>
+
+    <!-- Chatbot -->
+    <div class="chat-container" id="chat-container">
+
+        <div class="chat-header">
+            🏦 Global Trust Bank Assistant
+        </div>
+
+        <div class="chat-box" id="chat-box">
+
+            <div class="bot-message">
+                Welcome to Global Trust Bank 👋<br><br>
+
+                I can help you with:<br>
+
+                • Account Information<br>
+                • Account Requirements<br>
+                • Loan Services<br>
+                • Branch Location<br>
+                • Contact Details<br>
+                • Working Hours<br><br>
+
+                How may I assist you today?
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type your message..."
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- TRUST SECTION -->
+<section class="trust-section page-section" data-view="home">
+
+    <div class="trust-box">
+        <h3><i class="fas fa-lock"></i> Secure Banking</h3>
+        <p>Your security is our priority.</p>
+    </div>
+
+    <div class="trust-box">
+        <h3><i class="fas fa-clock"></i> 24/7 Support</h3>
+        <p>We are here to help you anytime.</p>
+    </div>
+
+    <div class="trust-box">
+        <h3><i class="fas fa-users"></i> Trusted by Thousands</h3>
+        <p>Join thousands of satisfied customers.</p>
+    </div>
+
+    <div class="trust-box">
+        <h3><i class="fas fa-building-columns"></i> Strong & Reliable</h3>
+        <p>A bank you can always count on.</p>
+    </div>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+
+ <div class="footer">
+    
+    <div class="footer-box">
+        <h3 class="bank-title">
+    <i class="fas fa-globe"></i> GLOBAL TRUST BANK
+</h3>
+        <p>Your Trust, Our Commitment</p>
+    </div>
+
+    <div class="footer-box">
+        <h4>Quick Links</h4>
+        <p><a href="#Home" data-section="home">Home</a></p>
+        <p><a href="#Services" data-section="services">Services</a></p>
+        <p><a href="#About" data-section="about">About Us</a></p>
+        <p><a href="#Contact" data-section="contact">Contact Us</a></p>
+    </div>
+
+    <div class="footer-box">
+        <h4>Support Hours</h4>
+        <p>Mon–Fri: 8:00 AM – 5:00 PM</p>
+        <p>Sat: 9:00 AM – 1:00 PM</p>
+        <p>Sun: Closed</p>
+        <p><a href="#Contact">Visit our Contact section</a></p>
+    </div>
+
+    <div class="social-icons">
+        <h4>Follow Us</h4>
+    <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+</div>
+
+</div>
+
+    <div class="footer-bottom">
+        © 2026 Global Trust Bank. All Rights Reserved.
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
