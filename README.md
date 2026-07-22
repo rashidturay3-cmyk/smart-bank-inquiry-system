@@ -7,5 +7,5 @@ Smart Bank Inquiry System with Chatbot Support is a web-based application that a
 3. Alie Lamin Kamara       I-23-59866
 4. Ansumana Sannoh         I-23-58634
 5. Salifu Mayoh Mansaray   I-23-61092
-6. Ahmed Bella Mansaray    I-23-60829
+6. Ahmed Bella Mansaray    I-23-60821
 
