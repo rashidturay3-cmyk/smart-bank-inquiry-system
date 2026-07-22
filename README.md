@@ -3,9 +3,9 @@ Smart Bank Inquiry System with Chatbot Support is a web-based application that a
 
 # Group Members           # ID
 1. Rashid Turay            I-23-59867
-2. Abu Bakarr Jalloh       I-23-
+2. Abu Bakarr Jalloh       I-23-60820
 3. Alie Lamin Kamara       I-23-59866
-4. Ansumana Sannoh         I-23-
-5. Salifu Mayoh Mansaray   I-23-
-6. Ahmed Bella Mansaray    I-23-
+4. Ansumana Sannoh         I-23-58634
+5. Salifu Mayoh Mansaray   I-23-61092
+6. Ahmed Bella Mansaray    I-23-60829
 
